@@ -6,6 +6,8 @@ Source: [Vehicle_Insurance.csv]
 
 Records: 381,109 entries
 
+![](https://github.com/Shria-Bhardwaj/VEHICLE-INSURANCE/blob/main/1.png)
+
 Features: 12 attributes including demographics, policy details, vehicle condition, and claim response
 
 📌 Project Objectives
@@ -31,10 +33,20 @@ Read and examine dataset structure, types, and basic statistics.
 🧹 2. Data Cleaning
 Verified absence of missing values.
 
+![](https://github.com/Shria-Bhardwaj/VEHICLE-INSURANCE/blob/main/2.png)
+
+
 Outliers in Annual_Premium and Driving_License removed using IQR.
+
+![](https://github.com/Shria-Bhardwaj/VEHICLE-INSURANCE/blob/main/3.png)
+
+![](https://github.com/Shria-Bhardwaj/VEHICLE-INSURANCE/blob/main/4.png)
+
 
 📊 3. Data Visualization
 Distribution plots of gender, age, premiums, and policy sales channels
+
+![](https://github.com/Shria-Bhardwaj/VEHICLE-INSURANCE/blob/main/5.png)
 
 Count and box plots for analyzing relationships between features and the target variable Response.
 
@@ -42,10 +54,12 @@ Count and box plots for analyzing relationships between features and the target 
 Gender vs Response: Males showed higher claim interest.
 
 Vehicle Damage: Strongly correlated with claim response.
+![](https://github.com/Shria-Bhardwaj/VEHICLE-INSURANCE/blob/main/6.png)
 
 Age & Premium Analysis: Older users and higher premiums showed distinct patterns.
 
 Policy Sales Channel & Region: Insights into effectiveness and regional trends.
+![](https://github.com/Shria-Bhardwaj/VEHICLE-INSURANCE/blob/main/7.png)
 
 Previously Insured: Previously uninsured customers are more likely to respond positively.
 
